@@ -3,11 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bike Index</title>
-    <link href="./css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Bike Index </title>
 </head>
 <body>
-    <h1>Bike Index</h1>
-    <script src="./index.js"></script>
+    <h1>Bike Index API</h1>
+    <div>
+        <label for="bikeId">Enter Bike ID:</label>
+        <input type="text" id="bikeId" placeholder="Enter Bike ID">
+        <button onclick="getBikeInfo()">Get Bike Info</button>
+    </div>
+    <div id="bikeInfo"></div>
+
+    <script src="script.js"></script>
 </body>
 </html>
