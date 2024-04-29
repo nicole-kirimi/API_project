@@ -34,15 +34,14 @@ addEventListener('click',() =>{
 })
 
 
+document.getElementById('data-form').addEventListener('submit', (event) => {
+  event.preventDefault()
+    const formData = new
+      FormData(event.target)
+})
 
 
 
 
 
 
-
-
-
-
-
-doc
