@@ -27,3 +27,22 @@ async function postData(data){
     console.error('Error in posting data:', error);
   }
 }
+
+document.getElementById('fetch-button')
+addEventListener('click',() =>{
+  fetchData()
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+doc
